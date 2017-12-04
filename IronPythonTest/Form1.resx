@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>31</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAEAGAAoMgAAFgAAACgAAABAAAAAgAAAAAEAGAAAAAAAAAAAAGAAAABgAAAAAAAAAAAA
+        AAAA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4Jg/7GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA
+        /8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA
+        /8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8Eg/5IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////9A/6EA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D/////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////9B/6IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////9I/6UA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////9L/6cA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9L/6cA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D/////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////9L/6cA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////9L/6cA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////
+        ///////////////////////////////////////////////////////////////////8//7/////////
+        ///////////////////////////////////////+//////////9I/6UA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////9B/6IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D/////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D////////////////////////////+//6h/9FZ/65V/6xV
+        /6xR/6pM/6dM/6dM/6dM/6dM/6dM/6dA/6I//6E//6E//6E//6E//6E6/58y/5sy/5sy/5sy/5s6/5+N
+        /8f8//7///////////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////97
+        /74A/4Ix/5pI/6VI/6VI/6VI/6VI/6VI/6VQ/6pT/6tT/6tT/6tT/6tT/6tY/61e/7Be/7Be/7Be/7Be
+        /7Bh/7Fp/7ZQ/6kC/4N//8D///////////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ///////////8//4O/4li/7L///+w/9hr/7dq/7Zq/7Zq/7Zq/7Zq/7Zo/7Vf/7Ff/7Ff/7Ff/7Ff/7Ff
+        /7FY/65V/6xV/6xV/6xU/6ye/9D///9W/6wk/5T///////////////////////////9A/6EA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D////////////////////////2//sE/4SK/8b///87/58A/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4JM/6f///9w/7kb/5D/////////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D////////////////////////3//sF/4SK/8b///+V/8sA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K2/9v///9w/7kV/43/////////
+        //////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////8H/4aK/8b////w//cL
+        /4gA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4Iq/5f9//7///9w
+        /7kV/43///////////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////8H
+        /4aK/8b///////9i/7IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4Ka/83///////9w/7kV/43///////////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        //////////////8H/4Z//8D////////G/+MA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IV/4z2//v///////96/74V/43///////////////////////////9A/6EA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D///////////////////////////8H/4Z8/7/////////+//8u/5kA/4IA/4IA/4IA/4JE/6MJ/4YA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4J+/8D///////////97/78V/43/////////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D///////////////////////////8H/4Z8/7////////////+T/8oA/4IA/4IA
+        /4IA/4LK/+Ve/7AA/4IA/4IA/4IA/4IA/4IA/4IA/4II/4bn//P///////////97/78R/4v9//7/////
+        //////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////8I/4Z8/7//////////
+        ///u//cL/4cA/4IA/4JD/6P////F/+MA/4IA/4IA/4IA/4IA/4IA/4IA/4Jh/7L///////////////97
+        /78N/4n6//3///////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////8S
+        /4t8/7////////////////9f/7EA/4IA/4K5/93////+//8v/5kA/4IA/4IA/4IA/4IA/4IC/4PR/+n/
+        //////////////97/78N/4n6//3///////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        //////////////8S/4t8/7/////////////////E/+IA/4Iz/5v+//////////+U/8oA/4IA/4IA/4IA
+        /4IA/4JF/6T///////////////////97/78N/4n6//3///////////////////////9A/6EA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D///////////////////////////8S/4t0/7v///////////////////+k/9LW/+v////////////v
+        //cM/4gA/4IA/4IA/4IA/4K3/9z///////////////////+E/8MN/4n6//3/////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D///////////////////////////8S/4tv/7n/////////////////////////
+        //////////////////9j/7MA/4IA/4IA/4Ir/5f9//7///////////////////+I/8QN/4n6//3/////
+        //////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////8S/4tv/7n/////////
+        ///////////////////////////////////K/+UA/4IA/4IA/4Ka/87///////////////////////+I
+        /8QH/4b3//v///////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D///////////////////////////8T
+        /4tv/7n///////////////////////////////////////////////8y/5sA/4IW/432//v/////////
+        //////////////+I/8QF/4X2//r///////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        //////////////8d/5Fv/7n///////////////////////////////////////////////+a/84A/4J/
+        /8D///////////////////////////+I/8QF/4X2//r///////////////////////9A/6EA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D///////////////////////////8e/5Fq/7b/////////////////////////////////////////
+        ///////8//69/9/4//z///////////////////////////9//8AH/4b3//v/////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D///////////////////////////9Q/6kT/4un/9S4/9y4/9y4/9y4/9y4/9y4
+        /9yw/9it/9et/9et/9et/9et/9ep/9Wh/9Gh/9Gh/9Gh/9Gh/9Gh/9GX/8yL/8YV/4xp/7b/////////
+        //////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D////////////////////////////i//E1/5wA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IB/4IB/4IB/4IB/4IB/4IB/4IF/4UG/4UG/4UI/4Zc
+        /6/3//v///////////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////
+        ///+//7g//Db/+3b/+3b/+3c/+7k//Lk//Lk//Lk//Lk//Lk//Lo//Ts//bs//bs//bs//bs//bs//bz
+        //n0//r0//r3//v///////////////////////////////////9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////9A/6EA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //9A/6EA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D/////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////+f/9CA/8GA/8GA/8GA/8GA/8GA/8GA/8GA
+        /8GA/8GA/8GA/8GA/8Eg/5IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////9A/6EA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////9A
+        /6FA/6H///////////////////////////////////////////8A/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////9A/6FA/6H///////////////////////////////////////+f/9AA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D/////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////9A/6FA/6H///////////////////////////////////+f/9AA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D/////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////9A/6FA/6H/////////////////////////
+        //////+f/9AA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////9A/6FA/6H/////////
+        //////////////////+f/9AA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////9A
+        /6FA/6H///////////////////////+f/9AA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////9A/6FA/6H///////////////////+f/9AA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K/
+        /+D/////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////9A/6FA/6H///////////////+f/9AA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4K//+D////////////////////////////////////////5//z/////////////////
+        //////////////////////////////////////////////9A/6FA/6H///////////+f/9AA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////9A/6FA/6H///////+f
+        /9AA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4K//+D/////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////9A
+        /6FA/6H///+f/9AA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4Jg/7GA/8GA/8GA/8GA
+        /8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA/8GA
+        /8GA/8GA/8GA/8Eg/5Ig/5Jw/7kA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA
+        /4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IA/4IAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
